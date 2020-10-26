@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #75a3a3;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #75a3a3;
+  color: white;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   height: 10%;
+   width: 100%;
+   background-color: #75a3a3;
+   color: white;
+   text-align: center;
+}
+body {
+  background-color: #b3cccc;
+}
+ul {
+text-align: center;
+list-style: none;
+}
+
+ul li {
+position: relative;    
+font: bold 12px/18px sans-serif; 
+display: inline-block;           
+padding: 15px 20px;         
+background: #75a3a3;             
+cursor: pointer;                
+}
+
+ul li:hover {                     
+background: #555;            
+color: #fff;                   
+}
+
+ul li ul {                   
+padding: 0;                      
+position: absolute;            
+top: 48px;                        
+left: -10000px;                
+width: 150px;                  
+}
+
+ul li ul li {                       
+background: #555;          
+display: block;                 
+color: #fff;                     
+}
+
+ul li ul li:hover { background: #666; 
+} 
+
+ul li:hover ul {                 
+display: block;               
+left :0px;                      
+}
+h1 {
+font-family: "Georgia";
+font-size:15px;
+text-align: center;
+color: black;
+}
+header {
+font-family:"Georgia";
+font-size: 30px;
+text-align: center;
+color: black;
+}
+</style>
+</head>
+<body>
+<header>Creative Native Designs</header>
+<h1>See What Others Don't</h1>
+<nav><ul><li>Home</li>
+<li>
+About Me
+<ul>
+<li>My Story</li>
+<li>My Experience</li>
+</ul>
+</li>
+<li>
+Portfolio
+<ul>
+<li>Illustrations</li>
+<li>Photography</li>
+<li>Paintings</li>
+</ul>
+</li>
+<li>Contact Me</li>
+</ul></nav>
+<div class="row"> 
+  <div class="column">
+  <img src="photoshop-project.jpg" style="width:100%">
+  <img src="20190819_133450.png" style="width:100%">
+  <img src="adorare-logo.jpg" style="width:100%">
+  <img src="bk2-2.jpg" style="width:100%">
+  <img src="Daniels-Pjt2.jpg" style="width:100%">
+  <img src="bubble-root-front.jpng" style="width:100%">
+  <img src="danies-Pantone3.jpg" style="width:100%">
+  </div>
+  <div class="column">
+  <img src="Daniels-Mockup.jpg" style="width:100%">
+  <img src="magazine-greece.jpg" style="width:100%">
+  <img src="daniels-Extract.jpg" style="width:100%">
+  <img src="card.jpg" style="width:100%">
+  <img src="DSC_1110.jpg" style="width:100%">
+  <img src="t-shirt-back-hat.png" style="width:100%">
+  </div>  
+</div>
+<div class="footer">
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-linkedin"></a>
+</div>
+</body>
+</html> 
